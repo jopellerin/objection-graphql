@@ -1,42 +1,44 @@
 {
-  "name": "objection-graphql",
-  "version": "0.4.5",
-  "description": "Automatically generates GraphQL schema for objection.js models and allows to extend the schema with custom mutations and subscriptions",
-  "main": "objection-graphql.js",
-  "scripts": {
-    "test": "istanbul --config=.istanbul.yml cover node_modules/mocha/bin/_mocha -- --slow 10 --timeout 5000 --reporter spec tests",
-    "test-only": "mocha --slow 10 --timeout 5000 --reporter spec --recursive tests",
-    "test-bail": "mocha --slow 10 --timeout 5000 --reporter spec --recursive tests --bail",
-    "test-opt": "mocha --slow 10 --timeout 5000 --reporter spec --recursive tests --bail --trace_opt --trace_deopt --trace_inlining",
-    "lint:js": "eslint . --fix"
-  },
-  "keywords": [
-    "GraphQL",
-    "SQL",
-    "objection.js"
+  "_args": [
+    [
+      "objection-graphql@0.4.5",
+      "/Users/jpellerin/Projects/budget/api-backend/src"
+    ]
   ],
-  "author": "Sami Koskimäki <sami.koskimaki@vincit.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/vincit/objection-graphql.git"
+  "_from": "objection-graphql@0.4.5",
+  "_id": "objection-graphql@0.4.5",
+  "_inBundle": false,
+  "_integrity": "sha512-2qzcYlKzlYugpBWjq3+56VtIG16xorDl+5uYiQhCQe2x5whKRwFhpljpRmwNK7YdK4m2h9ZIE2lquFXQm9UJ6g==",
+  "_location": "/objection-graphql",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "objection-graphql@0.4.5",
+    "name": "objection-graphql",
+    "escapedName": "objection-graphql",
+    "rawSpec": "0.4.5",
+    "saveSpec": null,
+    "fetchSpec": "0.4.5"
   },
-  "engines": {
-    "node": ">=4.0.0"
-  },
-  "files": [
-    "README.md",
-    "LICENSE",
-    "lib/*",
-    "objection-graphql.js"
+  "_requiredBy": [
+    "/budgets-service",
+    "/shared-lib"
   ],
-  "peerDependencies": {
-    "graphql": "> 0.9.0",
-    "objection": "> 0.8.0"
+  "_resolved": "https://registry.npmjs.org/objection-graphql/-/objection-graphql-0.4.5.tgz",
+  "_spec": "0.4.5",
+  "_where": "/Users/jpellerin/Projects/budget/api-backend/src",
+  "author": {
+    "name": "Sami Koskimäki",
+    "email": "sami.koskimaki@vincit.com"
+  },
+  "bugs": {
+    "url": "https://github.com/vincit/objection-graphql/issues"
   },
   "dependencies": {
     "lodash": "^4.17.11"
   },
+  "description": "Automatically generates GraphQL schema for objection.js models and allows to extend the schema with custom mutations and subscriptions",
   "devDependencies": {
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
@@ -48,5 +50,35 @@
     "mocha": "^3.4.2",
     "objection": "^1.1.7",
     "sqlite3": "^4.0.4"
-  }
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "lib/*",
+    "objection-graphql.js"
+  ],
+  "homepage": "https://github.com/vincit/objection-graphql#readme",
+  "keywords": [
+    "GraphQL",
+    "SQL",
+    "objection.js"
+  ],
+  "license": "MIT",
+  "main": "objection-graphql.js",
+  "name": "objection-graphql",
+  "peerDependencies": {
+    "graphql": "> 0.9.0",
+    "objection": "> 0.8.0"
+  },
+  "scripts": {
+    "lint:js": "eslint . --fix",
+    "test": "istanbul --config=.istanbul.yml cover node_modules/mocha/bin/_mocha -- --slow 10 --timeout 5000 --reporter spec tests",
+    "test-bail": "mocha --slow 10 --timeout 5000 --reporter spec --recursive tests --bail",
+    "test-only": "mocha --slow 10 --timeout 5000 --reporter spec --recursive tests",
+    "test-opt": "mocha --slow 10 --timeout 5000 --reporter spec --recursive tests --bail --trace_opt --trace_deopt --trace_inlining"
+  },
+  "version": "0.4.5"
 }
