@@ -36,6 +36,7 @@
     "url": "https://github.com/vincit/objection-graphql/issues"
   },
   "dependencies": {
+    "graphql-iso-date": "^3.6.1",
     "lodash": "^4.17.11"
   },
   "description": "Automatically generates GraphQL schema for objection.js models and allows to extend the schema with custom mutations and subscriptions",
