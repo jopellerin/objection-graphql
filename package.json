@@ -1,32 +1,25 @@
 {
-  "_args": [
-    [
-      "objection-graphql@0.4.5",
-      "/Users/jpellerin/Projects/budget/api-backend/src"
-    ]
-  ],
-  "_from": "objection-graphql@0.4.5",
+  "_from": "git+https://github.com/jopellerin/objection-graphql.git",
   "_id": "objection-graphql@0.4.5",
   "_inBundle": false,
-  "_integrity": "sha512-2qzcYlKzlYugpBWjq3+56VtIG16xorDl+5uYiQhCQe2x5whKRwFhpljpRmwNK7YdK4m2h9ZIE2lquFXQm9UJ6g==",
+  "_integrity": "",
   "_location": "/objection-graphql",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "objection-graphql@0.4.5",
+    "type": "git",
+    "raw": "objection-graphql@git+https://github.com/jopellerin/objection-graphql.git",
     "name": "objection-graphql",
     "escapedName": "objection-graphql",
-    "rawSpec": "0.4.5",
-    "saveSpec": null,
-    "fetchSpec": "0.4.5"
+    "rawSpec": "git+https://github.com/jopellerin/objection-graphql.git",
+    "saveSpec": "git+https://github.com/jopellerin/objection-graphql.git",
+    "fetchSpec": "https://github.com/jopellerin/objection-graphql.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
-    "/budgets-service",
-    "/shared-lib"
+    "/"
   ],
-  "_resolved": "https://registry.npmjs.org/objection-graphql/-/objection-graphql-0.4.5.tgz",
-  "_spec": "0.4.5",
+  "_resolved": "git+https://github.com/jopellerin/objection-graphql.git#a4729bba095b73605494e82dc36a8f6a3891d7da",
+  "_spec": "objection-graphql@git+https://github.com/jopellerin/objection-graphql.git",
   "_where": "/Users/jpellerin/Projects/budget/api-backend/src",
   "author": {
     "name": "Sami Koskimäki",
@@ -35,10 +28,11 @@
   "bugs": {
     "url": "https://github.com/vincit/objection-graphql/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
-    "graphql-iso-date": "^3.6.1",
     "lodash": "^4.17.11"
   },
+  "deprecated": false,
   "description": "Automatically generates GraphQL schema for objection.js models and allows to extend the schema with custom mutations and subscriptions",
   "devDependencies": {
     "eslint": "^4.16.0",
@@ -73,6 +67,10 @@
   "peerDependencies": {
     "graphql": "> 0.9.0",
     "objection": "> 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vincit/objection-graphql.git"
   },
   "scripts": {
     "lint:js": "eslint . --fix",
